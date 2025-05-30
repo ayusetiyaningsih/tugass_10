@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to bottom, #fff9c4, #fff); /* Gradasi kuning ke putih */
+    min-height: 100vh;
+}
+.table {
+    background-color: #ffffff; /* Latar belakang putih untuk tabel */
+}
+.modal-content {
+    background-color: #fefefe; /* Latar belakang putih untuk modal */
+}
+@media print {
+    .no-print {
+      display: none;
+    }
+    /* Pastikan badge tetap berwarna saat print */
+.badge.bg-success {
+      background-color: #198754 !important;
+      color: white !important;
+      -webkit-print-color-adjust: exact; /* Untuk Chrome dan browser berbasis WebKit */
+      print-color-adjust: exact;
+    }
+.badge.bg-warning {
+      background-color: #ffc107 !important;
+      color: black !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+.badge.bg-primary {
+      background-color: #0d6efd !important;
+      color: white !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+.badge.bg-danger {
+      background-color: #dc3545 !important;
+      color: white !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+
+
